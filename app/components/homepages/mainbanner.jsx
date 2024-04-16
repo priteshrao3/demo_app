@@ -16,7 +16,7 @@ function Main_Carousel() {
   }, []);
 
   return (
-    <div className="md:relative mt-14 md:mt-0 bg-white">
+    <div className="md:relative mt-[4em] bg-white">
       <Carousel autoplay>
         {images.map((img, index) => (
           <div key={index} className='bg-gradient-to-t from-slate-900 to-slate-700'>
